@@ -20,7 +20,7 @@ export const Modal: FC<ModalProps> = ({ title, description, isOpen, onClose, cla
   };
   return (
     <Dialog open={isOpen} onOpenChange={onChange}>
-      <DialogContent showCloseButton={showButtonClose} className={cn(`bg-white w-full`, className)}>
+      <DialogContent className={cn(`bg-white w-full`, className)}>
         <DialogHeader>
           <DialogTitle>{title}</DialogTitle>
           <DialogDescription>{description}</DialogDescription>
