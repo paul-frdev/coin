@@ -1,7 +1,7 @@
 import { Button } from "../ui/button";
 import { Modal } from "../ui/modal";
-import { Typography } from "../ui/typography";
-import React, { useEffect, useState } from "react";
+import { Typography } from "../ui/Typography";
+import React from "react";
 
 interface AlertModalProps {
   onClose: () => void;
@@ -10,15 +10,6 @@ interface AlertModalProps {
   loading?: boolean;
 }
 export const AlertModal: React.FC<AlertModalProps> = ({ onClose, onConfirm, isOpen, loading }) => {
-  const [isMounted, setIsMounted] = useState(false);
-
-  useEffect(() => {
-    setIsMounted(true);
-  }, []);
-
-  if (!isMounted) {
-    return null;
-  }
 
   const title = () => {
     return <Typography className="text-[24px] text-basic font-bold mb-4">Are you sure?</Typography>;

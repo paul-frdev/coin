@@ -1,23 +1,19 @@
 "use client";
-"use client";
 
-import { ReceiveEmailModal } from "../modals/ReceiveEmailModal";
 import { Button } from "../ui/button";
 import { Checkbox } from "../ui/checkbox";
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "../ui/form";
 import { Input } from "../ui/input";
-import { Title } from "../ui/title";
-import { Typography } from "../ui/typography";
+import { Title } from "../ui/Title";
+import { Typography } from "../ui/Typography";
 import useReceiveEmailModal from "@/hooks/useReceiveEmailModal";
 import { Lock } from "@/icons/lock";
 import { cn } from "@/lib/utils";
 import { Email } from "@/types";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { motion } from "framer-motion";
-import { useParams, useRouter } from "next/navigation";
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
-import { toast } from "react-hot-toast";
 import * as z from "zod";
 
 type ReceiveEmailFormValues = z.infer<typeof formSchema>;
@@ -32,8 +28,6 @@ const formSchema = z.object({
 });
 
 export const ReceiveEmailForm: React.FC<ReceiveEmailFormProps> = ({ initialData }) => {
-  const params = useParams();
-  const router = useRouter();
 
   const viewModal = useReceiveEmailModal();
 
@@ -56,7 +50,6 @@ export const ReceiveEmailForm: React.FC<ReceiveEmailFormProps> = ({ initialData 
   };
   return (
     <>
-      <ReceiveEmailModal />
       <motion.div
         initial="initial"
         animate="animate"

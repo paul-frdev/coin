@@ -4,11 +4,11 @@ import React, { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Button } from "./ui/button";
 import { LinkHref } from "./ui/linkHref";
-import { navItems } from "@/constants";
-import { Person } from "@/icons/person";
-import { cn } from "@/lib/utils";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
+import { Person } from '@/icons/person';
+import { cn } from '@/lib/utils';
+import { navItems } from '@/constants';
 
 interface MobileNavProps {
   isOpen: boolean;

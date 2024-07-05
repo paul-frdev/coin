@@ -2,7 +2,7 @@
 
 import { Button } from "../ui/button";
 import { Progress } from "../ui/progress";
-import { Typography } from "../ui/typography";
+import { Typography } from "../ui/Typography";
 import { ArrowBackward } from "@/icons/arrowBackward";
 import React from "react";
 

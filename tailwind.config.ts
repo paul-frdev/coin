@@ -1,13 +1,8 @@
-import type { Config } from "tailwindcss"
+import type { Config } from "tailwindcss";
 
 const config = {
   darkMode: ["class"],
-  content: [
-    './pages/**/*.{ts,tsx}',
-    './components/**/*.{ts,tsx}',
-    './app/**/*.{ts,tsx}',
-    './src/**/*.{ts,tsx}',
-	],
+  content: ["./pages/**/*.{ts,tsx}", "./components/**/*.{ts,tsx}", "./app/**/*.{ts,tsx}", "./src/**/*.{ts,tsx}"],
   prefix: "",
   theme: {
     container: {
@@ -60,7 +55,6 @@ const config = {
         colorTitle: "#727AED",
         checkColor: "rgba(16, 16, 16, 0.75)",
         buttonShadow: "0px 6px 12px 0px rgba(114, 122, 237, 0.50)",
-
 
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -115,9 +109,18 @@ const config = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
+      backgroundImage: {
+        quiz: "url('/images/backgroundquiz.svg')",
+        leftCoins: "url('/images/left-coins.svg')",
+        rightCoins: "url('/images/right-coins.svg')",
+        leftCoinsBig: "url('/images/coinsLeft.png')",
+        rightCoinsBig: "url('/images/coinsRight.png')",
+        dollars: "url('/images/dollars.png')",
+        dollarsSvg: "url('/images/dollars.svg')",
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],
-} satisfies Config
+} satisfies Config;
 
-export default config
+export default config;

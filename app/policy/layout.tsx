@@ -2,11 +2,11 @@ import { Footer } from "@/components/Footer";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Quiz",
-  description: "start your investing journey",
+  title: "Privacy policy",
+  description: "our privacy policy",
 };
 
-export default function LandingLayout({ children }: { children: React.ReactNode }) {
+export default function PrivacyLayout({ children }: { children: React.ReactNode }) {
   return (
     <div className="w-full h-full">
       {children}
