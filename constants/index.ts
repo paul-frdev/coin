@@ -64,7 +64,7 @@ export const navItems = [
   {
     id: 2,
     title: "Privacy policy",
-    src: "/policy",
+    src: "/privacy",
   },
   {
     id: 3,
