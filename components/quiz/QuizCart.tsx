@@ -1,6 +1,6 @@
 "use client";
 
-import { Title } from "../ui/Title";
+import { Title } from "../ui/title";
 import { cn } from "@/lib/utils";
 import { Question } from "@/types/quizQuestions";
 import { motion } from "framer-motion";

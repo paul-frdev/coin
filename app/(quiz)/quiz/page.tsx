@@ -1,5 +1,5 @@
 import { QuizList } from '@/components/quiz/QuizList';
-import { Container } from '@/components/ui/Container';
+import { Container } from '@/components/ui/container';
 
 const QuizClientPage = () => {
   return (

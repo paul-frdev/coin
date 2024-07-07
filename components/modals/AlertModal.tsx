@@ -1,6 +1,6 @@
 import { Button } from "../ui/button";
 import { Modal } from "../ui/modal";
-import { Typography } from "../ui/Typography";
+import { Typography } from "../ui/typography";
 import React from "react";
 
 interface AlertModalProps {

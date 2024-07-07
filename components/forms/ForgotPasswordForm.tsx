@@ -3,7 +3,7 @@ import { Button } from "../ui/button";
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "../ui/form";
 import { Input } from "../ui/input";
 import { LinkHref } from "../ui/linkHref";
-import { Title } from "../ui/Title";
+import { Title } from "../ui/title";
 import { fadeIn, openSection } from "@/constants/variants";
 import { cn } from "@/lib/utils";
 import { SignIn } from "@/types";

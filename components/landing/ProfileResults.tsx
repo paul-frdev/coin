@@ -2,8 +2,8 @@
 
 import { AnimatedProgressBar } from "../ui/AnimatedProgressBar";
 import { Counter } from "../ui/counter";
-import { Title } from "../ui/Title";
-import { Typography } from "../ui/Typography";
+import { Title } from "../ui/title";
+import { Typography } from "../ui/typography";
 import { SalesCart } from "./SalesCart";
 import { SalesWidget } from "./SalesWidget";
 import computerImage from "/public/images/computer.png";
