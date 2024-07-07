@@ -116,7 +116,7 @@ export const PrivacyClient = () => {
             * “Personal data” means any information relating to an identified or identifiable natural person (‘data subject’); an identifiable natural person is one who can be identified, directly or indirectly, in particular by reference to an identifier such as a name, an identification number, location data, an online identifier or to one or more factors specific to the physical, physiological, genetic, mental, economic, cultural or social identity of that natural person (Article 4 (1) of the GDPR).
             (See the full text of the EU’s General Data Protection Regulation (GDPR) at https://eur-lex.europa.eu/eli/reg/2016/679/oj)
           </Typography>
-          <Typography className='text-left text-base w-full max-w-full text-[#101010] mb-5'>
+          <Typography className='text-left text-base w-full max-w-full text-[#101010] mb-6'>
             (See the full text of the EU’s General Data Protection Regulation (GDPR) at https://eur-lex.europa.eu/eli/reg/2016/679/oj)
           </Typography>
         </div>
